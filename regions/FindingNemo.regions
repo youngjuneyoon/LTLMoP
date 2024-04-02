@@ -1,0 +1,198 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+
+Obstacles: # Names of regions to treat as obstacles
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "r9", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                287.0, 
+                1.0
+            ], 
+            [
+                269.0, 
+                46.0
+            ], 
+            [
+                0.0, 
+                34.0
+            ], 
+            [
+                22.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            247.0, 
+            176.0
+        ], 
+        "type": "poly", 
+        "size": [
+            287.0, 
+            46.0
+        ]
+    }, 
+    {
+        "name": "r8", 
+        "color": [
+            255, 
+            0, 
+            255
+        ], 
+        "height": 0, 
+        "position": [
+            401.0, 
+            60.0
+        ], 
+        "type": "rect", 
+        "size": [
+            133.0, 
+            120.0
+        ]
+    }, 
+    {
+        "name": "r7", 
+        "color": [
+            255, 
+            0, 
+            0
+        ], 
+        "height": 0, 
+        "position": [
+            554.0, 
+            76.0
+        ], 
+        "type": "rect", 
+        "size": [
+            235.0, 
+            119.0
+        ]
+    }, 
+    {
+        "name": "r6", 
+        "color": [
+            255, 
+            255, 
+            0
+        ], 
+        "height": 0, 
+        "position": [
+            579.0, 
+            203.0
+        ], 
+        "type": "rect", 
+        "size": [
+            218.0, 
+            76.0
+        ]
+    }, 
+    {
+        "name": "r5", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "height": 0, 
+        "position": [
+            564.0, 
+            307.0
+        ], 
+        "type": "rect", 
+        "size": [
+            223.0, 
+            197.0
+        ]
+    }, 
+    {
+        "name": "r4", 
+        "color": [
+            255, 
+            0, 
+            0
+        ], 
+        "height": 0, 
+        "position": [
+            376.0, 
+            362.0
+        ], 
+        "type": "rect", 
+        "size": [
+            173.0, 
+            143.0
+        ]
+    }, 
+    {
+        "name": "r3", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "height": 0, 
+        "position": [
+            107.0, 
+            364.0
+        ], 
+        "type": "rect", 
+        "size": [
+            222.0, 
+            140.0
+        ]
+    }, 
+    {
+        "name": "r2", 
+        "color": [
+            255, 
+            0, 
+            255
+        ], 
+        "height": 0, 
+        "position": [
+            110.0, 
+            248.0
+        ], 
+        "type": "rect", 
+        "size": [
+            170.0, 
+            89.0
+        ]
+    }, 
+    {
+        "name": "r1", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "height": 0, 
+        "position": [
+            107.0, 
+            67.0
+        ], 
+        "type": "rect", 
+        "size": [
+            163.0, 
+            145.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+
